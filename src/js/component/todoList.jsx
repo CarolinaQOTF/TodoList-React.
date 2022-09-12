@@ -35,8 +35,6 @@ const Tasklist = () => {
 					type="text"
 					className="form-control"
 					placeholder="Enter a task"
-					aria-label="Username"
-					aria-describedby="basic-addon1"
 					onChange={(e) => setTask(e.target.value)}
 					onKeyDown={handleTask}
 				/>
